@@ -68,5 +68,15 @@
       "flat_build": "bitbake qcom-multimedia-proprietary-image",
       "sdk_build": "bitbake qcom-multimedia-proprietary-image && bitbake qcom-multimedia-proprietary-image -c populate_sdk"
     }
+  },
+  "eliza-evk-emmc": {
+    "file_name": "meta-audioreach/ci/eliza-evk-emmc.yml",
+    "machine_name": "eliza-evk-emmc",
+    "image_name": "eliza-evk-emmc",
+    "testing_enabled": false,
+    "build_commands": {
+      "flat_build": "bitbake qcom-multimedia-proprietary-image",
+      "sdk_build": "bitbake qcom-multimedia-proprietary-image && bitbake qcom-multimedia-proprietary-image -c populate_sdk"
+    }
   }
 }
